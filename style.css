@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite DE Grund", cursive;
+}
+body {
+  background: rgb(1, 1, 5);
+  background: linear-gradient(
+    360deg,
+    rgba(1, 1, 5, 1) 77%,
+    rgba(0, 77, 88, 1) 100%
+  );
+  background-color: rgb(1, 1, 5);
+  text-align: center;
+}
+header {
+  background-color: black;
+  padding-top: 10px;
+  color: #00c3ff;
+  border-bottom: 3px solid #fa0351;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: 2px solid lightseagreen;
+  border-radius: 1rem;
+  font-size: 3.5rem;
+  background-color: #ffffc7;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 30px;
+}
+/* .reset-btn {
+  height: 12vmin;
+  width: 22vmin;
+  font-size: 2rem;
+  background-color: rgb(33, 33, 33);
+  color: whitesmoke;
+  border: none;
+  border-radius: 1rem;
+} */
+
+/* .new-game {
+  height: 12vmin;
+  width: 25vmin;
+  font-size: 2rem;
+  background-color: rgb(33, 33, 33);
+  color: whitesmoke;
+  border: none;
+  border-radius: 1rem;
+} */
+
+#msg {
+  font-size: 6vmin;
+  color: blanchedalmond;
+}
+
+.hide {
+  display: none;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: #010409;
+  border-top: 3px solid #fa0351;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgb(49, 118, 255);
+  font-size: 14px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
